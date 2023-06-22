@@ -6,8 +6,6 @@ for i in unique:
     count = word.count(i)
     count_list.append(count)
 
-print(count_list)
-
 if count_list.count(max(count_list)) > 1:
     print('?')
 else:
