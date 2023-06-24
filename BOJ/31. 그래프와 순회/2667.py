@@ -41,5 +41,6 @@ for i in range(N):
             answer_list.append(count)
           
 print(num)
+answer_list.sort()
 for i in answer_list:
     print(i)
