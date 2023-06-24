@@ -2,24 +2,18 @@ N, M = list(map(int, input().split()))
 
 count = []
 temp = N
-cnt2 = 0
+cnt = 0
 
 for _ in range(5):
     cnt = 0
     
     while(1):
-        temp = temp // M
-        print(temp)
-        cnt += 1
         if temp == 0:
-            count.append(cnt)
-            cnt2 = cnt
             break
-    temp = N - (M*cnt2)
-    print(cnt2)
-    if temp == 0:
-        break
-
+        temp = temp // M
+        cnt += 1
+        
+    count.append(cnt)
 
 print(count)
 
