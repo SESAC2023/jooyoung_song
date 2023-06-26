@@ -10,7 +10,7 @@ while(1):
         count.append(temp)
         break
     count.append(temp % M)
-    temp = temp // M
+    temp = temp //M
 
 for i in reversed(range(len(count))):
     if count[i] < 10:
