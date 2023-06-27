@@ -17,16 +17,18 @@ for a in range(N-7):
         B = 0 # 검정 색칠 횟수
         # 한 시작점에서 W+B 는 항상 64가 된다.
         for i in range(a, a+8): # 시작지점
-            for j in range(b, b+8): # 시작지점            
+            for j in range(b, b+8): # 시작지점      
+              
+                #W와 B를 모두 구하기 때문에 W를 B로 바꿔도 동일한 결과를 출력한다.
                 if (i+j)%2 == 0: # 짝수
-                    if chess[i][j] != 'W': # B이면
+                    if chess[i][j] != 'W': # W여야 하는데 B이면
                         W += 1
-                    else:                  # W라면
+                    else:                  # B여야 하는데 W이면
                         B += 1
                 else: # 홀수
-                    if chess[i][j] != 'W': # B이면
+                    if chess[i][j] != 'W': # W여야 하는데 B이면
                         B += 1
-                    else:                  # W라면
+                    else:                  # B여야 하는데 W이면
                         W += 1
         count.append(W)
         count.append(B)
