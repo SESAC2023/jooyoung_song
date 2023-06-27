@@ -23,12 +23,12 @@ for a in range(N-7):
                 if (i+j)%2 == 0: # 짝수
                     if chess[i][j] != 'W': # W여야 하는데 B이면
                         W += 1
-                    else:                  # B여야 하는데 W이면
+                    else:                  # B여야 하는데 B이면
                         B += 1
                 else: # 홀수
                     if chess[i][j] != 'W': # W여야 하는데 B이면
                         B += 1
-                    else:                  # B여야 하는데 W이면
+                    else:                  # W여야 하는데 W이면
                         W += 1
         count.append(W)
         count.append(B)
