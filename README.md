@@ -9,6 +9,6 @@
 # BaekJoon Tier
 <div align=center>
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tdj00142)](https://solved.ac/songsite123/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=songsite123)](https://solved.ac/songsite123/)
 
 </div>
