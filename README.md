@@ -5,3 +5,10 @@
 * 전자공학/컴퓨터 공학 학업 관련 블로그를 운영중입니다.
   *   https://blog.naver.com/songsite123
   *   https://songsite123.tistory.com/
+
+# BaekJoon Tier
+<div align=center>
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tdj00142)](https://solved.ac/songsite123/)
+
+</div>
