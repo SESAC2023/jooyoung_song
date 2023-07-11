@@ -6,7 +6,6 @@
   *   https://blog.naver.com/songsite123
   *   https://songsite123.tistory.com/
 
-# BaekJoon Tier
 <div align=center>
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=songsite123)](https://solved.ac/songsite123/)
