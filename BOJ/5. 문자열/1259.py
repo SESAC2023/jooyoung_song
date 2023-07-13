@@ -1,5 +1,5 @@
 while True:
-    s = list(input())
+    s = input()
     if s=='0':
         break
 
