@@ -21,3 +21,16 @@ else:
         print("mixed")
     
         
+"""
+# 더 좋은 풀이
+
+a = list(map(int, input().split()))
+ 
+if a == sorted(a):
+    print('ascending')
+elif a == sorted(a, reverse=True):
+    print('descending')
+else:
+    print('mixed')
+
+"""
