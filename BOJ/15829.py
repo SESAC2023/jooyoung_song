@@ -10,4 +10,4 @@ for i in range(n):
     hash += (String[i]-96)*r
     r *= 31
 
-print(hash)
+print(hash % M)
