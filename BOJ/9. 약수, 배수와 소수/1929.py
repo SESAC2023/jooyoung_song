@@ -1,6 +1,8 @@
 import math
 
 def primenum(x):
+    if x < 2:
+        return False
     for i in range(2, int(math.sqrt(x) + 1)):   #2부터 제곱근까지 모든 숫자 중
         if x % i == 0:      #하나라도 나눠지면
             return False
